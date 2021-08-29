@@ -112,20 +112,13 @@ namespace ConsoleApp1
 
             //    Console.WriteLine("Хотите продолжить?Для продолжения введите yes, для выхода любой другой символ.");
             //    exit = Console.ReadLine();
-           
-            for (int i=10 ; i < 51; i++)
+            int summ = 0;
+            for (int i = 10; i < 51; i++)
             {
-             
-             if (i % 2 == 0)
-                {
-                    Console.WriteLine($"сумма квадратов {i} = {i*i + i*i}");
-
-                }
-             
-       
-                
+                summ = summ + i;
+                summ += i * i;
             }
-            
+            Console.WriteLine($"{summ}");
         }
     }
 }
