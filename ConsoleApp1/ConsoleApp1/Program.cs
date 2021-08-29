@@ -73,7 +73,7 @@ namespace ConsoleApp1
             string exit = "yes";
             while (exit == "yes" || exit == "Yes" || exit == "No"|| exit == "no")
             {
-
+                Console.WriteLine("privet");
                 Console.WriteLine("Введи число от 1 до 7");
                 dayOfWeek = Convert.ToInt32(Console.ReadLine());
                 if (dayOfWeek == 1)
