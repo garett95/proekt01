@@ -69,50 +69,63 @@ namespace ConsoleApp1
             //{
             //    Console.WriteLine("Перечитай правила, от 1 до 7");
             //}int
-            int dayOfWeek = 0;
-            string exit = "yes";
-            while (exit == "yes" || exit == "Yes" || exit == "No"|| exit == "no")
-            {
-                Console.WriteLine("privet");
-                Console.WriteLine("tvoya kiska v zone riska");
-                Console.WriteLine("Введи число от 1 до 7");
-                dayOfWeek = Convert.ToInt32(Console.ReadLine());
-                if (dayOfWeek == 1)
-                {
-                    Console.WriteLine("твой день понедельник");
-                }
-                else if (dayOfWeek == 2)
-                {
-                    Console.WriteLine("Твой день вторник");
-                }
-                else if (dayOfWeek == 3)
-                {
-                    Console.WriteLine("Твой день среда");
-                }
-                else if (dayOfWeek == 4)
-                {
-                    Console.WriteLine("Твой день четверг");
-                }
-                else if (dayOfWeek == 5)
-                {
-                    Console.WriteLine("Твой день пятница");
-                }
-                else if (dayOfWeek == 6)
-                {
-                    Console.WriteLine("Твой день суббота");
-                }
-                else if (dayOfWeek == 7)
-                {
-                    Console.WriteLine("Твой день воскресенье");
-                }
-                else
-                {
-                    Console.WriteLine("Перечитай правила, от 1 до 7");
-                }
+            //int dayOfWeek = 0;
+            //string exit = "yes";
+            //while (exit == "yes" || exit == "Yes" || exit == "No"|| exit == "no")
+            //{
+            //    Console.WriteLine("privet");
+            //    Console.WriteLine("tvoya kiska v zone riska");
+            //    Console.WriteLine("Введи число от 1 до 7");
+            //    dayOfWeek = Convert.ToInt32(Console.ReadLine());
+            //    if (dayOfWeek == 1)
+            //    {
+            //        Console.WriteLine("твой день понедельник");
+            //    }
+            //    else if (dayOfWeek == 2)
+            //    {
+            //        Console.WriteLine("Твой день вторник");
+            //    }
+            //    else if (dayOfWeek == 3)
+            //    {
+            //        Console.WriteLine("Твой день среда");
+            //    }
+            //    else if (dayOfWeek == 4)
+            //    {
+            //        Console.WriteLine("Твой день четверг");
+            //    }
+            //    else if (dayOfWeek == 5)
+            //    {
+            //        Console.WriteLine("Твой день пятница");
+            //    }
+            //    else if (dayOfWeek == 6)
+            //    {
+            //        Console.WriteLine("Твой день суббота");
+            //    }
+            //    else if (dayOfWeek == 7)
+            //    {
+            //        Console.WriteLine("Твой день воскресенье");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Перечитай правила, от 1 до 7");
+            //    }
 
-                Console.WriteLine("Хотите продолжить?Для продолжения введите yes, для выхода любой другой символ.");
-                exit = Console.ReadLine();
+            //    Console.WriteLine("Хотите продолжить?Для продолжения введите yes, для выхода любой другой символ.");
+            //    exit = Console.ReadLine();
+           
+            for (int i=10 ; i < 51; i++)
+            {
+             
+             if (i % 2 == 0)
+                {
+                    Console.WriteLine($"сумма квадратов {i} = {i*i + i*i}");
+
+                }
+             
+       
+                
             }
+            
         }
     }
 }
